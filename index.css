@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.links{
+    display: flex;
+    padding-right: 20px;
+}
+.links li{
+    list-style: none;
+    transition: all .5s;
+}
+.links li:hover{
+    transform: scale(1.2);
+}
+li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+}
+li a:hover{
+    color: gray;
+}
+.firstContainer{
+    background: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: brown; */
+    height: 70vh;
+    font-size: 1.2rem;
+}
+.startBtn{
+    padding: .5rem .9rem;
+    border: none;
+    /* border-radius: 1rem; */
+    cursor: pointer;
+    background-color: white;
+    color: rgb(67, 36, 130);
+    font-weight: bold;
+}
+.startBtn:hover{
+    background-color: rgb(67, 36, 130);
+    color: white;
+    transition: all 1s;
+    /* transform: rotate(360deg); */
+    transform: skew(15deg);
+}
+.content p{
+    margin: .5rem 0;
+    width: 30%;
+    text-align: center;
+}
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    /* height: 250px; */
+    height: 100%;
+}
+.secondContainer h1{
+    color: rgb(67, 36, 130);
+    /* text-decoration: underline; */
+}
+.secondContainer hr{
+    width: 50px;
+    /* height: 1px; */
+    border: 1px solid rgb(67, 36, 130);
+    background-color: rgb(67, 36, 130);
+}
+.secondContainer p{
+    margin: .8rem 0;
+}
+.secondContainer .secondBtn{
+    padding: .3rem .9rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: 2px solid rgb(67, 36, 130);
+    background: transparent;
+    color: rgb(67, 36, 130);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card i{
+    font-size: 2rem;
+}
+.card{
+    background-color: rgb(67, 36, 130);
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    width: 507px;
+    font-size: 1.2rem;
+}
+.card h2{
+    margin: 1rem 0;
+}
+.thirdContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    /* height: 250px; */
+    height: 100%;
+}
+.thirdContainer h1{
+    color: rgb(67, 36, 130);
+}
+.thirdContainer hr{
+    width: 50px;
+    border: 1px solid rgb(67, 36, 130);
+    background-color: rgb(67, 36, 130);
+}
+.thirdContainer p{
+    padding: .8rem 0;
+}
+.iconsFirst{
+ display: flex;
+ margin: 0%;
+ align-items: center;
+ flex-direction: row;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ 
+}
+.iconsSeccond{
+    display: flex;
+    margin: 0%;
+    align-items: center;
+     flex-direction: row;
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+.iconsThird{
+    display: flex;
+    margin: 0%;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.iconsFirst li{
+    margin: 1%;
+    align-items: center;
+    border: .2px solid black;
+    padding: 0 20px;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgb(153, 155, 155);
+    color: white;
+    border: none;
+}
+.iconsFirst i{
+    margin: 0 20px 0 0;
+    border: 1px solid rgb(67, 36, 130);
+    border-radius: 50px;
+    margin: 3px;
+    padding: 15px;
+    color: rgb(67, 36, 130);
+}
+.iconsSeccond li{
+    margin: 1%;
+    align-items: center;
+    border: .2px solid black;
+    padding: 0 20px;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgb(153, 155, 155);
+    color: white;
+    border: none;
+}
+.iconsSeccond i{
+    margin: 0 20px;
+    border: 1px solid rgb(67, 36, 130);
+    border-radius: 50px;
+    margin: 3px;
+    padding: 15px;
+    color: rgb(67, 36, 130);
+}
+.iconsThird li{
+    margin: 1%;
+    align-items: center;
+    border: .2px solid black;
+    padding: 0px 10px;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgb(148, 150, 150);
+    color: white;
+    border: none;
+}
+.iconsThird i{
+    margin: 0 20px;
+    border: 1px solid rgb(67, 36, 130);
+    border-radius: 50px;
+    margin: 3px;
+    padding: 15px;
+    color: rgb(67, 36, 130);
+}
+.fourthContainer{
+    background-color: rgb(67, 36, 130);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 900px;
+    font-size: 40px;
+   padding: 5%;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+   }
+.fourthContainer h2{
+    padding: 10px;
+}
+.fourthContainer i{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+.fifthContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    /* height: 250px; */
+    height: 100%;
+}
+.fifthContainer hr{
+    width: 50px; 
+    border: 1px solid rgb(67, 36, 130);
+    background-color: rgb(67, 36, 130);
+}
+.fifthContainer p{
+    padding: 1rem;
+}
+.fifthContainer h1{
+    color: rgb(67, 36, 130);
+}
+.sixthContainer{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  list-style: none;
+  align-content: center;
+  cursor: pointer;
+  margin-left: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(67, 36, 130);
+}
+.sevenContainer{
+    padding: 10px ;
+    /* margin: 0% 100px 0px 100px ; */
+    margin-left: 275px;
+}
+.sevenContainer img{
+    width: 370px;
+    height: 250px;
+}
+.eightContainer{
+ padding: 0%;
+ margin-left: 285px;
+ 
+}
+.eightContainer img{
+    width: 370px;
+    height: 250px;
+   padding: 0%;
+}
+.nineContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0px 0px 0px ;
+    background-color: rgb(67, 36, 130);
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+.nineContainer img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 80px 0 0 90px;
+    margin-left: 300px;
+}
+.pera{
+    color: white;
+    font-size: 15px ;
+    margin-left: 10px;
+}
+.pera h3{
+    padding: 5px;
+margin: 2px;
+
+}
